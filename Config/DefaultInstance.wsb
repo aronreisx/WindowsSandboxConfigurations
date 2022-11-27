@@ -1,0 +1,18 @@
+<Configuration>
+  <Metadata>
+    <Name>Default Instance</Name>
+    <Author>Aron Reis</Author>
+    <Description>Configuration for a new Windows Sandbox instance with Chocolatey and 7zip installed</Description>
+  </Metadata>
+  <VGpu>Default</VGpu>
+  <Networking>Default</Networking>
+  <MappedFolders>
+    <MappedFolder>
+      <HostFolder>D:\projects\wsb\Scripts</HostFolder>
+      <ReadOnly>true</ReadOnly>
+   </MappedFolder>
+  </MappedFolders>
+  <LogonCommand>
+    <Command>C:\Users\WDAGUtilityAccount\Desktop\Scripts\Entrypoint.cmd</Command>
+  </LogonCommand>
+</Configuration>

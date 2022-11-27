@@ -1,0 +1,2 @@
+@REM Reference: https://stackoverflow.com/a/64812427
+powershell -executionpolicy unrestricted -command "start powershell {-file C:\Users\WDAGUtilityAccount\Desktop\Scripts\Modules\InstallChocolatey.ps1}"
